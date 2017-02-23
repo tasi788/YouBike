@@ -32,7 +32,6 @@ while True:
 					print('新站點!')
 		time.sleep(60)
 	except:
-		raise
 		with open('ubike/ubike.json','w') as f:
 			f.write('UBike官網似乎斷線？')
 		time.sleep(60)
